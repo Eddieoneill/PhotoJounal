@@ -18,8 +18,11 @@
 		6CE562FC245FA31800DCF7F2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE562FB245FA31800DCF7F2 /* MainView.swift */; };
 		6CE5631F245FA9DD00DCF7F2 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5631E245FA9DD00DCF7F2 /* PhotoCell.swift */; };
 		6CE56321245FAA6A00DCF7F2 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE56320245FAA6A00DCF7F2 /* CreateView.swift */; };
-		6CE56323245FAAA800DCF7F2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE56322245FAAA800DCF7F2 /* Extensions.swift */; };
+		6CE56323245FAAA800DCF7F2 /* Date + convertToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE56322245FAAA800DCF7F2 /* Date + convertToString.swift */; };
 		6CE56325245FAAC600DCF7F2 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE56324245FAAC600DCF7F2 /* CreateViewController.swift */; };
+		6CE5637D2460604500DCF7F2 /* UIViewController + showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5637C2460604500DCF7F2 /* UIViewController + showAlert.swift */; };
+		6CE5637F2460614D00DCF7F2 /* UIView + ancor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5637E2460614D00DCF7F2 /* UIView + ancor.swift */; };
+		6CE563812460618D00DCF7F2 /* Data + convertToURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE563802460618D00DCF7F2 /* Data + convertToURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +37,11 @@
 		6CE562FB245FA31800DCF7F2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6CE5631E245FA9DD00DCF7F2 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		6CE56320245FAA6A00DCF7F2 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
-		6CE56322245FAAA800DCF7F2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6CE56322245FAAA800DCF7F2 /* Date + convertToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + convertToString.swift"; sourceTree = "<group>"; };
 		6CE56324245FAAC600DCF7F2 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		6CE5637C2460604500DCF7F2 /* UIViewController + showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + showAlert.swift"; sourceTree = "<group>"; };
+		6CE5637E2460614D00DCF7F2 /* UIView + ancor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ancor.swift"; sourceTree = "<group>"; };
+		6CE563802460618D00DCF7F2 /* Data + convertToURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data + convertToURL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +127,10 @@
 		6CE562F0245F9E2800DCF7F2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6CE56322245FAAA800DCF7F2 /* Extensions.swift */,
+				6CE56322245FAAA800DCF7F2 /* Date + convertToString.swift */,
+				6CE5637C2460604500DCF7F2 /* UIViewController + showAlert.swift */,
+				6CE5637E2460614D00DCF7F2 /* UIView + ancor.swift */,
+				6CE563802460618D00DCF7F2 /* Data + convertToURL.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -212,12 +221,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE5637F2460614D00DCF7F2 /* UIView + ancor.swift in Sources */,
 				6CE56325245FAAC600DCF7F2 /* CreateViewController.swift in Sources */,
 				6CE5631F245FA9DD00DCF7F2 /* PhotoCell.swift in Sources */,
-				6CE56323245FAAA800DCF7F2 /* Extensions.swift in Sources */,
+				6CE56323245FAAA800DCF7F2 /* Date + convertToString.swift in Sources */,
 				6CE562FC245FA31800DCF7F2 /* MainView.swift in Sources */,
 				6CE562EF245F9E0A00DCF7F2 /* MainViewController.swift in Sources */,
+				6CE5637D2460604500DCF7F2 /* UIViewController + showAlert.swift in Sources */,
 				6CE56321245FAA6A00DCF7F2 /* CreateView.swift in Sources */,
+				6CE563812460618D00DCF7F2 /* Data + convertToURL.swift in Sources */,
 				6CE562D5245F985000DCF7F2 /* AppDelegate.swift in Sources */,
 				6CE562D7245F985000DCF7F2 /* SceneDelegate.swift in Sources */,
 				6CE562FA245FA1D400DCF7F2 /* Photo.swift in Sources */,
