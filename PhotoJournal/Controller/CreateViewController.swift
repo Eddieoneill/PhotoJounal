@@ -15,12 +15,12 @@ protocol CreateVCDelegate: class {
 
 class CreateViewController: UIViewController {
     
-    weak var delegate: CreateVCDelegate?
     private let addView = CreateView()
     public var mediaData: Data?
     private var photo: Photo?
     private var dataPersistence: DataPersistence<Photo>
     private var updateBool = false
+    weak var delegate: CreateVCDelegate?
     
     init(dataPersistence: DataPersistence<Photo>, object: Photo? = nil) {
         self.dataPersistence = dataPersistence
